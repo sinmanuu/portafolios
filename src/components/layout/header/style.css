@@ -1,0 +1,62 @@
+.header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 132px;
+	border-bottom: 3px solid #000;
+	margin-bottom: 35px;
+}
+
+.header .logo,
+.header nav {
+	flex: 1 1 auto;
+}
+
+.header .logo {
+	display: flex;
+}
+
+.header .logo span {
+	display: block;
+	font-size: 90px;
+	font-weight: bolder;
+	margin-top: -8px;
+}
+
+.header .logo h3 {
+	display: block;
+	flex-basis: 40px;
+	margin-left: 10px;
+	font-weight: 300;
+	text-transform: uppercase;
+	color: #fa4529;
+}
+
+.header nav ul {
+	height: 132px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.header li {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 17px;
+	margin: 0 15px;
+}
+
+.header a {
+	color: #000;
+	text-decoration: none;
+}
+
+.header a:hover {
+	color: #fa4529;
+	transition: all 300ms;
+}
+
+.header .active {
+	color: #fa4529;
+}
