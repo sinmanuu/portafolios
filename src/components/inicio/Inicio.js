@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ListadoTrabajos } from "../listadoTrabajos/ListadoTrabajos";
 import "./style.css";
 
 export const Inicio = () => {
@@ -18,7 +19,7 @@ export const Inicio = () => {
 			<section className="last-works">
 				<h2 className="heading">Algunos de mis proyectos</h2>
 
-				<div className="works"></div>
+				<ListadoTrabajos limite="2" />
 			</section>
 		</div>
 	);
